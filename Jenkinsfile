@@ -23,18 +23,6 @@ pipeline {
             }
         }
 
-        stage('Running JAR') {
-            steps {
-                echo '=== RUNNING APPLICATION ==='
-                bat '''
-                IF EXIST target\\Jenkins-Demo.jar (
-                    java -jar target\\Jenkins-Demo.jar
-                ) ELSE (
-                    echo ERROR: JAR not found!
-                    EXIT /B 1
-                )
-                '''
-            }
-        }
+
     }
 }
