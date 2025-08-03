@@ -10,4 +10,9 @@ public class DemoController {
     public String welcome(){
         return "Hello Guest ! Welcome to Jenkins";
     }
+
+    @GetMapping(value = "test")
+    public String test(){
+        return "Hello ! Jenkins Testing";
+    }
 }
