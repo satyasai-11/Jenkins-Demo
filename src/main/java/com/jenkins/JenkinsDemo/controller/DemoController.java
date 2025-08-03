@@ -13,6 +13,6 @@ public class DemoController {
 
     @GetMapping(value = "test")
     public String test(){
-        return "Hello Guest ! Jenkins Testing";
+        return "Hello ! Jenkins Testing";
     }
 }
