@@ -8,6 +8,6 @@ public class TestController {
 
     @GetMapping(value = "test")
     public String test(){
-        return "Hi Guest !  Jenkins Testing";
+        return "Hi Guest ! jenkins Testing";
     }
 }
