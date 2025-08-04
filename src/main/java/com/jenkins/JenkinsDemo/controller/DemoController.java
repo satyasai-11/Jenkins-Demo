@@ -11,12 +11,11 @@ public class DemoController {
         return "Hello Guest ! Welcome to Jenkins";
     }
 
-    @GetMapping(value = "test")
-    public String test(){
-        return "Hello Guest! Jenkins Testing";
-    }
+
     @GetMapping(value = "jenkins")
     public String jenkins(){
         return "Hello Jenkins! Happy Learning Champions";
     }
+
+
 }
