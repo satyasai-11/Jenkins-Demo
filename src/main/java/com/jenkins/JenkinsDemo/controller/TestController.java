@@ -10,4 +10,8 @@ public class TestController {
     public String test(){
         return "Hi Guest ! jenkins Testing";
     }
+    @GetMapping("friends")
+    public String friends(){
+        return "My Friends";
+    }
 }
