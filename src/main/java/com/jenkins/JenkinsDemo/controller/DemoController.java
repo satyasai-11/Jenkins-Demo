@@ -15,4 +15,8 @@ public class DemoController {
     public String test(){
         return "Hello Guest! Jenkins Testing";
     }
+    @GetMapping(value = "jenkins")
+    public String jenkins(){
+        return "Hello Jenkins! Happy Learninng";
+    }
 }
