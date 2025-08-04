@@ -12,6 +12,6 @@ public class TestController {
     }
     @GetMapping("friends")
     public String friends(){
-        return "My Friends";
+        return "My Friends"
     }
 }
